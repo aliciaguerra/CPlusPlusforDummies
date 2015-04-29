@@ -13,7 +13,7 @@ solutions).
 exception handling, which makes the life of the developer easy.
 
 2. What is a class?
-3. 
+ 
 Class defines a datatype, its type definition of a category of things. But a class actually does not define the data, it just 
 specifies the structure of the data. To use them, you need to create objects outside the class. Class can be considered the 
 blueprint of a building, you cannot stay inside the blueprint of a building, you need to construct buildings out of that plan.
@@ -34,4 +34,9 @@ three access specifiers defined which are public, private, and protected.
 - private: Members declared as private are accessible only within the same class and they cannot be accessed outside the 
 class they are declared.
 - public: Members declared as public are accessible from anywhere.
-- protected: Members declared as protected cannot be accessed from outside the class in
+- protected: Members declared as protected cannot be accessed from outside the class except a child class. This access
+specifier has significance in the context of inheritance.
+
+5. What are the basic concepts of OOP?
+- Encapsulation: Encapsulation is the mechanism by which data associated operations/methods are bound together and thus hide
+the data from the outside world. It's also called data hiding. 
