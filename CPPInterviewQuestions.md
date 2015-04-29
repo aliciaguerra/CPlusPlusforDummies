@@ -13,13 +13,25 @@ solutions).
 exception handling, which makes the life of the developer easy.
 
 2. What is a class?
+3. 
 Class defines a datatype, its type definition of a category of things. But a class actually does not define the data, it just 
 specifies the structure of the data. To use them, you need to create objects outside the class. Class can be considered the 
 blueprint of a building, you cannot stay inside the blueprint of a building, you need to construct buildings out of that plan.
 You can create any number of buildings from a blueprint, similarly you can create any number of objects from a class.
 
 3. What is an object/instance?
+
 Object is the instance of a class, which is concrete. From the above example, we can create instance of class vehicle as
-given below
-`Vehicle vehicleObject;`
-We can have different objects of the class vehicle
+given below <br>
+`Vehicle vehicleObject;` <br>
+We can have different objects of the class vehicle, for example we can have vehicle types with two tires, four tires, etc.
+Similarly different engine capacities as well.
+
+4. What do you mean by C++ access specifiers?
+
+Access specifiers are used to define how the members (functions and variables) can be accessed outside the class. There are
+three access specifiers defined which are public, private, and protected.
+- private: Members declared as private are accessible only within the same class and they cannot be accessed outside the 
+class they are declared.
+- public: Members declared as public are accessible from anywhere.
+- protected: Members declared as protected cannot be accessed from outside the class in
